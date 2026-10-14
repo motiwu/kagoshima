@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 南九州・山地兄妹巨嬰團
 
-## Getting Started
+帶長輩到南九州自由行（2026/11/19–11/26）的行程網站，以 iPhone／iPad 為主要裝置。
 
-First, run the development server:
+## 開發
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev        # 會先把 MapLibre worker 複製到 public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 改行程
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 行程、時間、備註：`src/data/itinerary.ts`
+- 地點名稱、座標、介紹、飯店資訊：`src/data/places.json`（分類與天氣區域在 `src/data/places.ts`）
+- 天氣區域與海拔：`src/data/zones.ts`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+改了地點或行程順序後，重新產生路線與地圖：
 
-## Learn More
+```bash
+pnpm data:routes   # OSRM 計算各路段車程（約 1 秒一段）
+pnpm data:geo      # 面積比較圖與八天總覽圖（需要 .cache/ne_admin1.geojson）
+```
 
-To learn more about Next.js, take a look at the following resources:
+`.cache/ne_admin1.geojson` 來自 Natural Earth：
+`https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces.geojson`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+其他資料腳本：
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| 指令 | 產生 |
+| --- | --- |
+| `pnpm data:climate` | `src/data/generated/climate.json`，各區域近 10 年 11/19–26 的平均天氣 |
+| `pnpm data:map-style` | `public/map-style.json`，和紙色系的地圖樣式 |
+| `pnpm tsx scripts/import-content.mts <stops.json> <images/>` | 匯入景點介紹與照片 |
 
-## Deploy on Vercel
+## 天氣
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+出發前 16 天以外顯示「往年同期」；進入預報範圍後，伺服器每 3 小時向 Open-Meteo 抓一次預報（`src/lib/forecast.ts`）。

@@ -1,26 +1,172 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "maplibre-gl/dist/maplibre-gl.css";
 
+/* 色票參考晴日旅遊：銅金 #897658、深海軍藍 #052032 */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #faf8f4;
+  --paper-deep: #f2eee6;
+  --card: #ffffff;
+  --ink: #2b2b2b;
+  --ink-soft: #555555;
+  --ink-faint: #8a857c;
+  --bronze: #897658;
+  --bronze-deep: #6f5f45;
+  --bronze-wash: rgb(137 118 88 / 0.1);
+  --navy: #052032;
+  --line: rgb(137 118 88 / 0.28);
+  --vermilion: #b5523b;
+
+  /* shadcn 元件用的 token */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --popover: var(--card);
+  --popover-foreground: var(--ink);
+  --muted: #d9d3c7;
+  --muted-foreground: var(--ink-soft);
+  --primary: var(--bronze);
+  --primary-foreground: #ffffff;
+  --border: var(--line);
+  --ring: var(--bronze);
+  --radius: 0.75rem;
+
+  --day-bar-h: 4rem;
+  --map-h: max(25svh, 150px);
+  --sticky-offset: calc(var(--day-bar-h) + var(--map-h));
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@media (min-width: 768px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --sticky-offset: var(--day-bar-h);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-bronze: var(--bronze);
+  --color-bronze-deep: var(--bronze-deep);
+  --color-bronze-wash: var(--bronze-wash);
+  --color-navy: var(--navy);
+  --color-line: var(--line);
+  --color-vermilion: var(--vermilion);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  /* 蘋果內建的ヒラギノ明朝優先，其他裝置退回 Noto Serif TC */
+  --font-serif: "Hiragino Mincho ProN", "Hiragino Mincho Pro", var(--font-noto-serif), "Songti TC", serif;
+  --font-sans: "PingFang TC", "Hiragino Sans", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  --font-latin: var(--font-cormorant), "Hiragino Mincho ProN", serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 0.04em;
+    font-feature-settings: "palt";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    text-wrap: balance;
+  }
+  /* 內文不設 text-wrap: pretty：iOS Safari 會把整段中文的每一行都排短，右邊空一大塊 */
+  /* Cormorant 預設是舊式數字，改成等高數字比較好讀 */
+  .font-latin {
+    font-variant-numeric: lining-nums;
+  }
+  ::selection {
+    background: var(--bronze-wash);
+  }
+}
+
+@layer components {
+  /* 細底線標題，呼應晴日的分隔線 */
+  .rule-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+  .rule-title::after {
+    content: "";
+    width: 2.5rem;
+    height: 1px;
+    background: var(--bronze);
+  }
+
+  /* 螢光筆：只畫在文字下方約 2/3 高度；換行時每一行各自畫一段 */
+  .marker {
+    color: var(--ink);
+    font-weight: 500;
+    background: linear-gradient(
+      transparent 36%,
+      rgb(232 196 120 / 0.55) 36%,
+      rgb(232 196 120 / 0.55) 92%,
+      transparent 92%
+    );
+    border-radius: 0.2em 0.35em 0.25em 0.3em;
+    padding: 0 0.15em;
+    margin: 0 0.05em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  .vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: 0.25em;
+  }
+
+  /* 極淡的和紙纖維紋理 */
+  .washi {
+    background-color: var(--paper);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .54 0 0 0 0 .46 0 0 0 0 .35 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* MapLibre 的版權列縮小一點，不要搶畫面 */
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+  letter-spacing: 0;
 }

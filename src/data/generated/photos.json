@@ -1,0 +1,685 @@
+{
+  "akamizu": [
+    {
+      "src": "/images/spots/akamizu-1.jpg",
+      "width": 1280,
+      "height": 851,
+      "alt": "赤水展望廣場以熔岩打造的巨大紀念雕塑",
+      "author": "At by At",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_Akamizu_Viewspot_2013-08.JPG"
+    },
+    {
+      "src": "/images/spots/akamizu-2.jpg",
+      "width": 1280,
+      "height": 848,
+      "alt": "赤水熔岩地帶與櫻島山景",
+      "author": "BirdsEyeLV",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_-_panoramio_(6).jpg"
+    }
+  ],
+  "aoi-aso-shrine": [
+    {
+      "src": "/images/spots/aoi-aso-shrine-1.jpg",
+      "width": 1280,
+      "height": 845,
+      "alt": "青井阿蘇神社茅草屋頂的國寶樓門",
+      "author": "Saigen Jiro",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aoi_Aso-jinja,_romon-1.jpg"
+    },
+    {
+      "src": "/images/spots/aoi-aso-shrine-2.jpg",
+      "width": 1280,
+      "height": 847,
+      "alt": "青井阿蘇神社石鳥居與朱紅禊橋",
+      "author": "Saigen Jiro",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aoi_Aso-jinja,_ichinotorii.jpg"
+    }
+  ],
+  "aoshima-shrine": [
+    {
+      "src": "/images/spots/aoshima-shrine-1.jpg",
+      "width": 1280,
+      "height": 711,
+      "alt": "空拍青島與環繞小島的鬼之洗衣板岩床",
+      "author": "松岡明芳",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2021-01-07_Aoshima_Island_(Miyazaki)Aerial_photography%E9%9D%92%E5%B3%B6_(%E5%AE%AE%E5%B4%8E%E7%9C%8C)DJI_0246_(2)%E7%A9%BA%E6%92%AE.jpg"
+    },
+    {
+      "src": "/images/spots/aoshima-shrine-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "通往青島的彌生橋與青島全景",
+      "author": "Naokijp",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aoshima_jinja,_Aoshima_Island_01.jpg"
+    },
+    {
+      "src": "/images/spots/aoshima-shrine-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "退潮時露出的鬼之洗衣板奇岩",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ogre%27s_Washboards_of_Aoshima_Island_14.jpg"
+    }
+  ],
+  "arimura": [
+    {
+      "src": "/images/spots/arimura-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "從有村熔岩展望所眺望櫻島與熔岩原",
+      "author": "Sakoppi",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_View_From_Arimura_Lava_Lookout_2021-2.jpg"
+    },
+    {
+      "src": "/images/spots/arimura-2.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "有村熔岩展望所的熔岩與海岸景色",
+      "author": "Sakoppi",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Furusato-cho_View_From_Arimura_Lava_Lookout_2021.jpg"
+    },
+    {
+      "src": "/images/spots/arimura-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "從有村一帶看到的櫻島噴發",
+      "author": "Sakaori (talk)",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_eruptions_8_Dec._2014,_JST_13-45-14.JPG"
+    }
+  ],
+  "chiran-peace": [
+    {
+      "src": "/images/spots/chiran-peace-1.jpg",
+      "width": 1280,
+      "height": 633,
+      "alt": "知覽特攻和平會館周邊的展示飛機",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiran_Peace_Museum01.jpg"
+    },
+    {
+      "src": "/images/spots/chiran-peace-2.jpg",
+      "width": 1280,
+      "height": 851,
+      "alt": "知覽特攻和平會館戶外展示的一式戰鬥機「隼」",
+      "author": "Z3144228",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ki-43_Hayabuya_Kagoshima_Japan.jpg"
+    },
+    {
+      "src": "/images/spots/chiran-peace-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "知覽武家屋敷石牆與樹籬夾道的街景",
+      "author": "Naokijp",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiran-Fumoto_Samurai_Residence_Street_001.jpg"
+    }
+  ],
+  "ebino-kogen": [
+    {
+      "src": "/images/spots/ebino-kogen-1.jpg",
+      "width": 1280,
+      "height": 852,
+      "alt": "晴空下的韓國岳與蝦野高原",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Ebino_Plateau03n4592.jpg"
+    },
+    {
+      "src": "/images/spots/ebino-kogen-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "蝦野高原的火口湖",
+      "author": "Ray_go",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fud%C5%8Dike_2008-09-27.jpg"
+    },
+    {
+      "src": "/images/spots/ebino-kogen-3.jpg",
+      "width": 1280,
+      "height": 852,
+      "alt": "蝦野高原的草原與山景",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Ebino_Plateau02s3s4592.jpg"
+    }
+  ],
+  "kirishima-jingu": [
+    {
+      "src": "/images/spots/kirishima-jingu-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "被杉林環繞的霧島神宮朱紅社殿",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima-Jingu_Front.jpg"
+    },
+    {
+      "src": "/images/spots/kirishima-jingu-2.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "霧島神宮社殿與參道",
+      "author": "Raita Futo from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima-Jingu_Shrine_(52017682142).jpg"
+    },
+    {
+      "src": "/images/spots/kirishima-jingu-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "霧島神宮的朱紅鳥居與手水舍",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Last_torii_to_Kirishima-jing%C5%AB_(Kirishima,_Kagoshima)_VLux5_hdsr_04.jpg"
+    }
+  ],
+  "kirishima-kokusai": [
+    {
+      "src": "/images/spots/kirishima-kokusai-1.jpg",
+      "width": 1280,
+      "height": 852,
+      "alt": "霧島溫泉鄉丸尾的溫泉街與飯店，處處冒著溫泉蒸氣",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Maruo_Onsen_Kirishima01n4592.jpg"
+    },
+    {
+      "src": "/images/spots/kirishima-kokusai-2.jpg",
+      "width": 1280,
+      "height": 852,
+      "alt": "霧島溫泉鄉山谷中升起的溫泉煙霧",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima_Onsen01n4592.jpg"
+    }
+  ],
+  "kmj-airport": [
+    {
+      "src": "/images/spots/kmj-airport-1.jpg",
+      "width": 1280,
+      "height": 829,
+      "alt": "阿蘇熊本機場新航廈外觀",
+      "author": "hyolee2",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumamoto_Airport_2023.JPG"
+    },
+    {
+      "src": "/images/spots/kmj-airport-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "阿蘇熊本機場國內線航廈入口",
+      "author": "Banbam1029",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumamoto_Airport_Domestic_2015.JPG"
+    }
+  ],
+  "kumamoto-station": [
+    {
+      "src": "/images/spots/kumamoto-station-1.jpg",
+      "width": 1280,
+      "height": 851,
+      "alt": "熊本站新站房與站前廣場",
+      "author": "Junki.pc27",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Station_square_of_Kumamoto_station.JPG"
+    },
+    {
+      "src": "/images/spots/kumamoto-station-2.jpg",
+      "width": 1280,
+      "height": 851,
+      "alt": "熊本站新幹線口的現代建築外觀",
+      "author": "Junki.pc27",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumamoto_Station_Shinkansen_Gate.JPG"
+    },
+    {
+      "src": "/images/spots/kumamoto-station-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "熊本站白川口站房與站前廣場",
+      "author": "Jdjuice",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumamoto-station-032021.jpg"
+    }
+  ],
+  "kurokami-torii": [
+    {
+      "src": "/images/spots/kurokami-torii-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "被1914年櫻島大正噴發火山灰掩埋、只露出頂部的黑神埋沒鳥居",
+      "author": "そらみみ",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Buried_torii_near_Kurokami-Cho,_Kagoshima.JPG"
+    },
+    {
+      "src": "/images/spots/kurokami-torii-2.jpg",
+      "width": 1280,
+      "height": 848,
+      "alt": "黑神埋沒鳥居與後方冒煙的櫻島",
+      "author": "BirdsEyeLV",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Smoking_mount_Sakurajima_-_panoramio.jpg"
+    }
+  ],
+  "kyushu-hero": [
+    {
+      "src": "/images/spots/kyushu-hero-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "霧島連山的火山群峰與松林草原",
+      "author": "Raita Futo from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima_mountains_(52018968884).jpg"
+    },
+    {
+      "src": "/images/spots/kyushu-hero-2.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "生駒高原的花海與霧島山",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Miyazaki_Ikoma-plateau_Hinamori-mountain.jpg"
+    },
+    {
+      "src": "/images/spots/kyushu-hero-3.jpg",
+      "width": 1280,
+      "height": 572,
+      "alt": "從北側眺望綿延的霧島連山",
+      "author": "Ray_go",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima_from_North.jpg"
+    }
+  ],
+  "michinoeki-phoenix": [
+    {
+      "src": "/images/spots/michinoeki-phoenix-1.jpg",
+      "width": 1280,
+      "height": 869,
+      "alt": "堀切峠俯瞰日南海岸與鬼之洗衣板岩床",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Horikiri_Pass_July_2011_01.jpg"
+    },
+    {
+      "src": "/images/spots/michinoeki-phoenix-2.jpg",
+      "width": 1280,
+      "height": 720,
+      "alt": "道之驛 Phoenix 與日南海岸景色",
+      "author": "ja:User:Sanjo",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Michinoeki_Phoenix_Miyazaki_Japan.jpg"
+    }
+  ],
+  "obi-castle": [
+    {
+      "src": "/images/spots/obi-castle-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "飫肥城大手門與石垣",
+      "author": "Naokijp",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Obi,_Nichinan,_%C5%8Ctemon_Gate_of_Obi_Castle_02.jpg"
+    },
+    {
+      "src": "/images/spots/obi-castle-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "櫻花盛開的飫肥城大手門通道",
+      "author": "Hiroaki Kaneko",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E6%A1%9C%E3%81%AE%E9%A3%AB%E8%82%A5%E5%9F%8E_(Obi_Castle_with_Cherry_blossoms)_29_Mar,_2014_-_panoramio.jpg"
+    }
+  ],
+  "onamiike": [
+    {
+      "src": "/images/spots/onamiike-1.jpg",
+      "width": 1280,
+      "height": 850,
+      "alt": "湛藍的大浪池火口湖全景",
+      "author": "tsuda from Tsushima, Aichi, Japan",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Onamiike_volcano_2012-11-18_(8336171533).jpg"
+    },
+    {
+      "src": "/images/spots/onamiike-2.jpg",
+      "width": 1280,
+      "height": 850,
+      "alt": "從登山步道俯瞰大浪池",
+      "author": "tsuda",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Onamiike_volcano_2012-11-18_(8337229990).jpg"
+    }
+  ],
+  "paak-obi": [
+    {
+      "src": "/images/spots/paak-obi-3.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "PAAK HOTEL 茜さす的玄關：石階、石牆與掛著家紋暖簾的武家屋敷",
+      "author": "PAAK HOTEL",
+      "license": "樂天旅遊 房源照片",
+      "source": "https://travel.rakuten.co.jp/HOTEL/183955/183955.html"
+    },
+    {
+      "src": "/images/spots/paak-obi-4.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "櫻花樹下的武家屋敷，整棟包租的住處",
+      "author": "PAAK HOTEL",
+      "license": "樂天旅遊 房源照片",
+      "source": "https://travel.rakuten.co.jp/HOTEL/183955/183955.html"
+    }
+  ],
+  "sakurajima-general": [
+    {
+      "src": "/images/spots/sakurajima-general-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "夕陽染紅噴發煙柱的櫻島與鹿兒島市區",
+      "author": "KimonBerlin",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_at_Sunset_(4506212881).jpg"
+    },
+    {
+      "src": "/images/spots/sakurajima-general-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "晴空下雄偉的櫻島山體",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_(Kagoshima)_VLux5_hdsr_pk01.jpg"
+    },
+    {
+      "src": "/images/spots/sakurajima-general-3.jpg",
+      "width": 1280,
+      "height": 720,
+      "alt": "日出時分從海上眺望櫻島的剪影",
+      "author": "The Modern Polymath",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2025-09-08_Sakurajima_Sunrise.jpg"
+    }
+  ],
+  "sekinoo": [
+    {
+      "src": "/images/spots/sekinoo-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "關之尾瀑布寬闊的水簾",
+      "author": "Mitsuki-2368",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sekinoo_falls.jpg"
+    },
+    {
+      "src": "/images/spots/sekinoo-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "從吊橋方向眺望關之尾瀑布",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sekinoo_Falls_01.jpg"
+    }
+  ],
+  "sengan-en": [
+    {
+      "src": "/images/spots/sengan-en-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "仙巖園庭園與遠方的櫻島",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sengan-en_5.jpg"
+    },
+    {
+      "src": "/images/spots/sengan-en-2.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "仙巖園的池泉庭園，背景是櫻島",
+      "author": "_steffen",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_neighborhood,_Kagoshima_Prefecture;_March_2019_(13).jpg"
+    }
+  ],
+  "shinwa-no-sato": [
+    {
+      "src": "/images/spots/shinwa-no-sato-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "霧島神話之里公園入口與高千穗峰",
+      "author": "Ray_go",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Roadside_Station_Kirishima.jpg"
+    },
+    {
+      "src": "/images/spots/shinwa-no-sato-2.jpg",
+      "width": 1280,
+      "height": 567,
+      "alt": "從霧島神話之里公園眺望的遼闊全景",
+      "author": "Gordon Cheung",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima_Shinwanosato_Park_(33208609051).jpg"
+    }
+  ],
+  "shiroyama": [
+    {
+      "src": "/images/spots/shiroyama-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "從城山展望台眺望鹿兒島市區與櫻島",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Shiroyama_(Shiroyamacho,_Kagoshima)_VLux5_hdsr_05.jpg"
+    },
+    {
+      "src": "/images/spots/shiroyama-2.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "城山展望台俯瞰鹿兒島市街與錦江灣對岸的櫻島",
+      "author": "lumoplank",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_-_Kagoshima47.jpg"
+    }
+  ],
+  "suizenji": [
+    {
+      "src": "/images/spots/suizenji-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "水前寺成趣園的池泉與石橋、象徵富士山的假山",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumamoto_Suizenji-jojuen01n4272.jpg"
+    },
+    {
+      "src": "/images/spots/suizenji-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "晴空下的水前寺成趣園池泉庭園全景",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Suizen-ji_J%C5%8Dju-en_(Chuo-ku,_Kumamoto)_VLux5_hdsr_sj02.jpg"
+    }
+  ],
+  "takachiho-farm": [
+    {
+      "src": "/images/spots/takachiho-farm-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "高千穗峰山腳下的牧場草原",
+      "author": "Ray_go",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirishima_Takachihonomine_2.jpg"
+    },
+    {
+      "src": "/images/spots/takachiho-farm-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "高千穗牧場青草坡上的乳牛",
+      "author": "Ray_go",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Takachiho_Farm.jpg"
+    }
+  ],
+  "tenmonkan": [
+    {
+      "src": "/images/spots/tenmonkan-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "天文館商店街的拱廊入口",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:G3_Arcade_of_Temmonkan_Shopping_Street.jpg"
+    },
+    {
+      "src": "/images/spots/tenmonkan-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "人潮熱鬧的天文館拱廊商店街",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Temmonkan_G3_Shopping_Street_20180504-1.jpg"
+    }
+  ],
+  "toimisaki": [
+    {
+      "src": "/images/spots/toimisaki-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "都井岬草原上吃草的御崎馬，背景是藍色大海",
+      "author": "z tanuki",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wild_horse_of_cape_toi._-_%E9%83%BD%E4%BA%95%E5%B2%AC%E3%81%AE%E9%87%8E%E7%94%9F%E9%A6%AC_-_panoramio_(13).jpg"
+    },
+    {
+      "src": "/images/spots/toimisaki-2.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "都井岬海岸草坡上的野生御崎馬",
+      "author": "z tanuki",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wild_horse_of_cape_toi._-_%E9%83%BD%E4%BA%95%E5%B2%AC%E3%81%AE%E9%87%8E%E7%94%9F%E9%A6%AC_-_panoramio_(11).jpg"
+    },
+    {
+      "src": "/images/spots/toimisaki-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "都井岬燈塔",
+      "author": "sk01",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%83%BD%E4%BA%95%E5%B2%AC%E7%81%AF%E5%8F%B0_-_panoramio_(1).jpg"
+    }
+  ],
+  "udo-jingu": [
+    {
+      "src": "/images/spots/udo-jingu-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "建於海蝕洞內的鵜戶神宮朱紅本殿",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Udo-jingu_Main-shrine.jpg"
+    },
+    {
+      "src": "/images/spots/udo-jingu-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "鵜戶神宮朱紅色樓門",
+      "author": "TAKA@P.P.R.S",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gate,_Udo_Shrine,_Nichinan,_Miyazaki_-_Aug_16,_2008.jpg"
+    }
+  ],
+  "via-inn-kumamoto": [
+    {
+      "src": "/images/spots/via-inn-kumamoto-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "熊本站白川口站前一帶街景",
+      "author": "くろふね",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E7%86%8A%E6%9C%AC%E9%A7%85_-_panoramio.jpg"
+    }
+  ],
+  "yunohira": [
+    {
+      "src": "/images/spots/yunohira-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "從湯之平展望所近看櫻島北岳",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_seen_from_Yunohira_Observatory.jpg"
+    },
+    {
+      "src": "/images/spots/yunohira-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "湯之平展望所眺望櫻島山頂",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yunohira_Observatory_(Sakurajima,_Kagoshima)_VLux5_hdsr_12.jpg"
+    },
+    {
+      "src": "/images/spots/yunohira-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "從湯之平展望所遠眺錦江灣與鹿兒島市區",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yunohira_Observatory_(Sakurajima,_Kagoshima)_VLux5_hdsr_07.jpg"
+    }
+  ],
+  "stay-shigetomi": [
+    {
+      "src": "/images/spots/stay-shigetomi-1.jpg",
+      "width": 1280,
+      "height": 851,
+      "alt": "宿 重富的和室，紙門後是面向庭院的客廳",
+      "author": "宿 重富",
+      "license": "Airbnb 房源照片",
+      "source": "https://www.airbnb.com/rooms/1454762269606770660"
+    },
+    {
+      "src": "/images/spots/stay-shigetomi-2.jpg",
+      "width": 1280,
+      "height": 851,
+      "alt": "宿 重富的外觀，門口掛著藍色的「宿 重富」布簾",
+      "author": "宿 重富",
+      "license": "Airbnb 房源照片",
+      "source": "https://www.airbnb.com/rooms/1454762269606770660"
+    }
+  ],
+  "hero": [
+    {
+      "src": "/images/hero-sengan-en-2.jpg",
+      "width": 3840,
+      "height": 2560,
+      "alt": "仙巖園的庭園與池塘，遠方是櫻島",
+      "author": "_steffen",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_neighborhood,_Kagoshima_Prefecture;_March_2019_(13).jpg"
+    }
+  ],
+  "iwaya-park": [
+    {
+      "src": "/images/spots/iwaya-park-1.jpg",
+      "width": 1673,
+      "height": 1116,
+      "alt": "秋天的清水岩屋公園：池塘邊仿銀閣寺的「桜の屋形」與紅葉",
+      "author": "鹿児島県観光サイト かごしまの旅",
+      "license": "網站照片",
+      "source": "https://www.kagoshima-kankou.com/"
+    }
+  ]
+}

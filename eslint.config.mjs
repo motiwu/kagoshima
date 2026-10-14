@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // 從 node_modules 複製過來的 MapLibre worker
+    "public/maplibre-gl-worker.mjs",
   ]),
 ]);
 
