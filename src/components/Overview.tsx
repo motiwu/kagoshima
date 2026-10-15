@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import overview from '@/data/generated/overview.json'
 import { DAYS } from '@/data/itinerary'
 import { nichime, pad2, shortDate } from '@/lib/format'
@@ -64,7 +65,7 @@ export function Overview() {
             {O.days.map(
               (d) =>
                 d.mid && (
-                  <a key={d.n} href={`#day-${d.n}`}>
+                  <a key={d.n} href={`/days#day-${d.n}`}>
                     <circle cx={d.mid[0]} cy={d.mid[1]} r={21} fill={d.color} stroke="#fff" strokeWidth={3} />
                     <text x={d.mid[0]} y={d.mid[1] + 9} textAnchor="middle" className="fill-white font-latin text-[27px] font-semibold">
                       {d.n}
@@ -77,7 +78,7 @@ export function Overview() {
           <ol className="divide-y divide-line border-y border-line">
             {DAYS.map((d) => (
               <li key={d.n}>
-                <a href={`#day-${d.n}`} className="flex items-center gap-4 py-4 active:bg-bronze-wash">
+                <Link href={`/days#day-${d.n}`} className="flex items-center gap-4 py-4 active:bg-bronze-wash">
                   <span
                     className="flex size-11 shrink-0 items-center justify-center rounded-full font-latin text-xl font-semibold text-white"
                     style={{ background: d.color }}
@@ -91,7 +92,7 @@ export function Overview() {
                     <span className="block font-serif text-[19px] font-semibold tracking-[0.08em] text-ink">{d.title}</span>
                   </span>
                   <span aria-hidden className="text-bronze">→</span>
-                </a>
+                </Link>
               </li>
             ))}
           </ol>
