@@ -60,7 +60,7 @@ export type Hotel = Place & {
   perks: string[]
   breakfast?: string
   official: string
-  /** 設施標籤，例如大浴場、廚房、洗衣機 */
+  /** 設施標籤，例如大浴場、廚房、洗烘衣機 */
   amenities?: string[]
 }
 

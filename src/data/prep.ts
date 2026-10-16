@@ -20,6 +20,7 @@ export type PrepIcon =
   | 'battery'
   | 'passport'
   | 'pill'
+  | 'glasses'
   | 'toiletries'
   | 'shoes'
   | 'coat'
@@ -51,13 +52,13 @@ export const PREP_GROUPS: { title: string; ja: string; items: PrepItem[] }[] = [
       {
         icon: 'liquid',
         title: '液體',
-        text: '保養品用塑膠袋包好，放托運行李箱',
+        text: '保養品用塑膠袋包好，放托運行李',
       },
-      { icon: 'lighter', title: '打火機', text: '放身上，不能放行李箱' },
+      { icon: 'lighter', title: '打火機', text: '放身上、不可托運' },
       {
         icon: 'battery',
         title: '行動電源',
-        text: '不用帶，若想備用，記得要放身上\n飛機座位有 110V 插座、租車也能充電，可以隨身攜帶充電器、充電線',
+        text: '不用帶，若想備用請放身上、不可托運\n飛機座位有 110V 插座、租車也能充電，可以隨身攜帶充電器、充電線',
       },
     ],
   },
@@ -69,24 +70,25 @@ export const PREP_GROUPS: { title: string; ja: string; items: PrepItem[] }[] = [
       {
         icon: 'laundry',
         title: '換洗衣物',
-        text: '帶 4〜5 天份就夠：11/20、11/21 住飫肥，11/24、11/25 住重富，這兩個包棟住處都有洗衣機',
+        text: '帶 4〜5 天份就夠：\n11/20、11/21 住飫肥、\n11/24、11/25 住鹿兒島，\n這兩個包棟住處都有洗烘衣機',
       },
+      { icon: 'coat', title: '大小外套', text: '山區早晚約 8 度\n平地以薄長袖為基底的洋蔥式穿搭' },
       {
         icon: 'toiletries',
         title: '盥洗用品',
-        text: '牙刷、牙膏須自備；毛巾住處都有提供',
+        text: '牙刷、牙膏須自備\n毛巾住處都有提供',
       },
       {
         icon: 'pill',
         title: '常備藥',
         text: '備足每日日常用藥、暈車藥\n藥品留著原包裝或藥袋，入境日本時可能會被檢查',
       },
+      { icon: 'glasses', title: '老花眼鏡', text: '日文看不懂沒關係，至少要看得清楚' },
       {
         icon: 'shoes',
         title: '好走的鞋',
         text: '神社和城下町石階、坡道多，建議穿平常常穿、合腳的鞋',
       },
-      { icon: 'coat', title: '大小外套', text: '山區早晚約 8 度' },
       {
         icon: 'yen',
         title: '日幣現金',
@@ -95,23 +97,23 @@ export const PREP_GROUPS: { title: string; ja: string; items: PrepItem[] }[] = [
     ],
   },
   {
-    title: '入境與回國',
-    ja: '入国と帰国',
+    title: '出入境',
+    ja: '出入国',
     items: [
       {
         icon: 'qr',
-        title: '入境資料',
+        title: '日本入境資料',
         text: '領隊小吳會幫大家填好，入境時出示 QR Code 即可',
       },
       {
         icon: 'meat',
-        title: '不能帶到日本和台灣',
-        text: '肉製品（黑豬肉乾、肉鬆、含肉的泡麵或調理包）、新鮮水果和蔬菜（像櫻島小蜜柑）都不行，在當地吃完就好',
+        title: '不能帶入境',
+        text: '肉製品（肉乾、肉鬆、含肉的泡麵或調理包）、新鮮水果和蔬菜都不行',
       },
       {
         icon: 'alcohol',
-        title: '燒酎等酒類',
-        text: '每人限帶 1 公升',
+        title: '菸酒',
+        text: '燒酎等酒類每人限帶 1 公升\n香菸每人限帶 1 條（200 支）',
       },
     ],
   },

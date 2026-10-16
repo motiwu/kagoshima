@@ -21,7 +21,7 @@ const LABELS: Record<string, { text: string; side: 'left' | 'right' | 'below' }>
   'via-inn-kumamoto': { text: '熊本市', side: 'left' },
   'paak-obi': { text: '飫肥', side: 'left' },
   'kirishima-kokusai': { text: '霧島溫泉', side: 'below' },
-  'stay-shigetomi': { text: '重富', side: 'left' },
+  'stay-shigetomi': { text: '鹿兒島', side: 'left' },
 }
 
 export function Overview() {

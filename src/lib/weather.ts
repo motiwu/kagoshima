@@ -43,7 +43,7 @@ const hourOf = (t: string) => Number(t.slice(0, 2))
 function period(t: string) {
   const h = hourOf(t)
   if (h < 11) return '上午'
-  if (h < 14) return '中午'
+  if (h < 13) return '中午'
   if (h < 17) return '下午'
   return '晚上'
 }
@@ -54,9 +54,15 @@ function zoneVisits(day: Day) {
   const out: { zone: WeatherZoneId; time: string }[] = []
   // 第一站若是前一晚的飯店（出發點），就跳過，天氣從第一個景點算起
   const startIdx = day.n > 1 && PLACES[visits[0].place].kind === 'hotel' ? 1 : 0
-  for (const v of visits.slice(startIdx)) {
-    // 碼頭只是轉乘點，不列入天氣
-    if (v.alt || PLACES[v.place].kind === 'port') continue
+  for (const [i, v] of visits.entries()) {
+    if (i < startIdx) continue
+    // 碼頭只是轉乘點、商店只是順路買東西，不列入天氣
+    if (v.alt || PLACES[v.place].kind === 'port' || PLACES[v.place].kind === 'shop') continue
+    // 晚上的行程結束後回住處只是去睡覺，不另列一段
+    const last = i === visits.length - 1
+    if (last && i > 0 && PLACES[v.place].kind === 'hotel' && hourOf(visits[i - 1].time) >= 17) continue
+    // 回到早上出發的同一間飯店（中途睡午覺、傍晚回來），都不另列一段
+    if (i > 0 && startIdx === 1 && v.place === visits[0].place) continue
     const zone = PLACES[v.place].zone
     if (out.at(-1)?.zone !== zone) out.push({ zone, time: v.time })
   }
@@ -129,13 +135,12 @@ function clothingAdvice(segments: WeatherSegment[], low: number, rain: number, i
   else out.push('白天長袖就舒服，帶一件薄外套備用')
 
   if (warmest.temp - coldest.temp >= 5 && coldest.zone !== warmest.zone) {
-    const hi = coldest.elevation >= 400 ? `（海拔約 ${coldest.elevation} 公尺）` : ''
-    const diff = warmest.temp - coldest.temp
-    // 依造訪先後換句話說：先冷後暖、或先暖後冷
+    const hi = coldest.elevation >= 400 ? '海拔高，' : ''
+    // 直接講兩地的溫度，比「暖約 N 度」好懂；依造訪先後換句話說
     out.push(
       segments.indexOf(coldest) < segments.indexOf(warmest)
-        ? `${coldest.period}的${coldest.name}${hi}比較冷，${warmest.period}到${warmest.name}會暖約 ${diff} 度，外套穿脫方便就好`
-        : `${coldest.period}到${coldest.name}${hi}會比${warmest.name}冷約 ${diff} 度，出發前先把外套放在手邊`,
+        ? `${coldest.period}的${coldest.name}${hi}只有 ${coldest.temp} 度左右，${warmest.period}的${warmest.name}約 ${warmest.temp} 度，外套穿脫方便就好`
+        : `${warmest.period}的${warmest.name}約 ${warmest.temp} 度，${coldest.period}到${coldest.name}${hi}只剩 ${coldest.temp} 度左右，出發前先把外套放在手邊`,
     )
   } else {
     out.push('早晚溫差大，用「洋蔥式」穿法，熱了脫、冷了加')
